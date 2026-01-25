@@ -1,107 +1,92 @@
-📊 Análise de Vendas de Videogames — Ice Store
-🧩 Contexto do Projeto
+# 📊 Análise de Vendas de Videogames — Ice Store
 
-Você trabalha para a Ice, uma loja online que vende videogames no mundo todo. A empresa dispõe de dados abertos sobre:
+## 📌 Descrição do Projeto
 
-Avaliações de usuários e especialistas
+Neste projeto, atuo como analista de dados para a **Ice**, uma loja online que vende videogames em todo o mundo. A empresa possui dados abertos sobre vendas históricas de jogos, avaliações de usuários e especialistas, gêneros, plataformas e classificações etárias.
 
-Gêneros de jogos
+O objetivo é identificar **padrões que determinam se um jogo é bem-sucedido ou não**, auxiliando a empresa na tomada de decisões estratégicas e no planejamento de campanhas publicitárias.
 
-Plataformas (Xbox, PlayStation, etc.)
+---
 
-Dados históricos de vendas
+## 🎯 Objetivo da Análise
 
-O objetivo principal deste projeto é identificar padrões que determinam se um jogo é bem-sucedido ou não, permitindo:
+- Analisar dados históricos de vendas de videogames até 2016  
+- Identificar fatores que influenciam o sucesso comercial de um jogo  
+- Apoiar o planejamento de campanhas publicitárias para o ano de 2017  
 
-Prever possíveis sucessos de vendas
+> 📎 O foco principal é o **ganho de experiência prática em análise de dados**. As previsões não precisam ser exatas, mas sim coerentes e bem fundamentadas nos dados disponíveis.
 
-Apoiar decisões estratégicas
+---
 
-Planejar campanhas publicitárias mais eficientes
+## 🗂️ Dados Utilizados
 
-🎯 Objetivo
+O conjunto de dados contém informações de jogos lançados até 2016, incluindo:
 
-Analisar dados históricos de vendas de jogos (até 2016) para entender quais fatores influenciam o sucesso comercial de um jogo e, com base nisso, planejar campanhas de marketing para o ano de 2017.
+- Nome do jogo  
+- Plataforma (Xbox, PlayStation, PC, etc.)  
+- Gênero  
+- Ano de lançamento  
+- Vendas por região e vendas globais  
+- Avaliações de críticos  
+- Avaliações de usuários  
+- Classificação etária (rating)  
 
-⚠️ O foco do projeto é o aprendizado prático em análise de dados. Não é relevante se a previsão é para 2017, 2027 ou qualquer outro ano — o importante é o processo analítico.
+### 🎮 Classificação ESRB
 
-🗂️ Conjunto de Dados
+A coluna `rating` representa a classificação atribuída pelo **ESRB (Entertainment Software Rating Board)**, que indica a faixa etária recomendada para cada jogo.
 
-O conjunto de dados contém informações históricas de jogos lançados até 2016, incluindo:
+Exemplos de classificações:
+- **E (Everyone)** – Livre para todos os públicos  
+- **T (Teen)** – Adolescente  
+- **M (Mature)** – Adulto  
 
-Nome do jogo
+Essa informação é relevante, pois pode impactar diretamente o público-alvo e o volume de vendas.
 
-Plataforma (ex.: PS4, Xbox One, PC)
+---
 
-Gênero (ex.: Ação, Esporte, RPG)
+## ❓ Questões de Negócio
 
-Ano de lançamento
+Durante a análise, buscamos responder às seguintes perguntas:
 
-Vendas regionais e globais
+- Quais gêneros geram mais vendas?  
+- Quais plataformas apresentam melhor desempenho?  
+- Existe relação entre avaliações e volume de vendas?  
+- A classificação etária influencia o sucesso comercial?  
+- Há diferenças significativas de vendas entre regiões?  
 
-Avaliações de críticos
+---
 
-Avaliações de usuários
+## 🛠️ Ferramentas Utilizadas
 
-Classificação etária (rating)
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib / Seaborn  
+- Jupyter Notebook  
 
-🎮 Classificação ESRB
+---
 
-A coluna rating representa a classificação etária atribuída pelo ESRB (Entertainment Software Rating Board), que avalia o conteúdo dos jogos. Exemplos:
+## 🔎 Metodologia
 
-E (Everyone) – Livre para todos
+1. Preparação e limpeza dos dados  
+2. Análise exploratória dos dados (EDA)  
+3. Análise de correlação entre variáveis  
+4. Identificação de padrões e tendências  
+5. Geração de insights para campanhas publicitárias  
 
-T (Teen) – Adolescente
+---
 
-M (Mature) – Adulto
+## 📈 Resultados Esperados
 
-Essas classificações podem influenciar diretamente o público-alvo e, consequentemente, as vendas.
+A análise permite identificar características comuns entre jogos de sucesso, fornecendo **insights estratégicos** para orientar decisões de marketing e investimentos publicitários da Ice.
 
-🔍 Perguntas de Análise
+---
 
-Durante o projeto, buscamos responder a questões como:
+## 👩‍💻 Autora
 
-Quais gêneros são mais lucrativos?
+**Ana Flávia Pinto Oliveira**  
+Analista de Dados  
 
-Quais plataformas concentram maiores vendas?
+---
 
-Avaliações de críticos influenciam mais as vendas do que avaliações de usuários?
-
-A classificação etária impacta o desempenho comercial?
-
-Existem diferenças significativas entre regiões?
-
-🛠️ Ferramentas e Tecnologias
-
-Python
-
-Pandas
-
-NumPy
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
-
-📈 Metodologia
-
-Limpeza e preparação dos dados
-
-Análise exploratória (EDA)
-
-Análise de correlações
-
-Identificação de padrões e tendências
-
-Geração de insights para campanhas publicitárias
-
-📌 Conclusão
-
-Este projeto demonstra como dados históricos podem ser usados para orientar decisões estratégicas de marketing na indústria de videogames. A análise fornece uma base sólida para identificar jogos promissores e compreender os fatores que impulsionam o sucesso comercial.
-
-👩‍💻 Autora
-
-Ana Flávia Pinto Oliveira
-Analista de Dados
-
-📎 Projeto desenvolvido com fins educacionais e de prática em análise de dados.
+📎 *Projeto desenvolvido para fins educacionais e prática em análise de dados.*
