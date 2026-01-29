@@ -1,14 +1,14 @@
-# 📊 Análise de Vendas de Videogames — Ice Store
+# Análise de Vendas de Videogames — Ice Store
 
-## 📌 Descrição do Projeto
+## Descrição do Projeto
 
-Neste projeto, atuo como analista de dados para a **Ice**, uma loja online que vende videogames em todo o mundo. A empresa possui dados abertos sobre vendas históricas de jogos, avaliações de usuários e especialistas, gêneros, plataformas e classificações etárias.
+A **Ice** é uma loja online que vende videogames em todo o mundo. A empresa possui dados abertos sobre vendas históricas de jogos, avaliações de usuários e especialistas, gêneros, plataformas e classificações etárias.
 
 O objetivo é identificar **padrões que determinam se um jogo é bem-sucedido ou não**, auxiliando a empresa na tomada de decisões estratégicas e no planejamento de campanhas publicitárias.
 
 ---
 
-## 🎯 Objetivo da Análise
+## Objetivo da Análise
 
 - Analisar dados históricos de vendas de videogames até 2016  
 - Identificar fatores que influenciam o sucesso comercial de um jogo  
@@ -18,7 +18,7 @@ O objetivo é identificar **padrões que determinam se um jogo é bem-sucedido o
 
 ---
 
-## 🗂️ Dados Utilizados
+## Dados Utilizados
 
 O conjunto de dados contém informações de jogos lançados até 2016, incluindo:
 
@@ -31,7 +31,7 @@ O conjunto de dados contém informações de jogos lançados até 2016, incluind
 - Avaliações de usuários  
 - Classificação etária (rating)  
 
-### 🎮 Classificação ESRB
+### Classificação ESRB
 
 A coluna `rating` representa a classificação atribuída pelo **ESRB (Entertainment Software Rating Board)**, que indica a faixa etária recomendada para cada jogo.
 
@@ -44,7 +44,7 @@ Essa informação é relevante, pois pode impactar diretamente o público-alvo e
 
 ---
 
-## ❓ Questões de Negócio
+## Questões de Negócio
 
 Durante a análise, buscamos responder às seguintes perguntas:
 
@@ -56,7 +56,7 @@ Durante a análise, buscamos responder às seguintes perguntas:
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 - Python  
 - Pandas  
@@ -66,7 +66,7 @@ Durante a análise, buscamos responder às seguintes perguntas:
 
 ---
 
-## 🔎 Metodologia
+## Metodologia
 
 1. Preparação e limpeza dos dados  
 2. Análise exploratória dos dados (EDA)  
@@ -76,17 +76,9 @@ Durante a análise, buscamos responder às seguintes perguntas:
 
 ---
 
-## 📈 Resultados Esperados
+## Resultados Esperados
 
 A análise permite identificar características comuns entre jogos de sucesso, fornecendo **insights estratégicos** para orientar decisões de marketing e investimentos publicitários da Ice.
 
 ---
-
-## 👩‍💻 Autora
-
-**Ana Flávia Pinto Oliveira**  
-Analista de Dados  
-
----
-
 📎 *Projeto desenvolvido para fins educacionais e prática em análise de dados.*
