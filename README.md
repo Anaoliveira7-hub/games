@@ -23,7 +23,6 @@ Foram identificados os gêneros mais populares, as plataformas líderes de venda
 - Análise exploratória de dados
 - Elaboração de gráficos
 - Estudo de correlações
-
-Teste de hipóteses
+- Teste de hipóteses
 ---
 📎 *Projeto desenvolvido para fins educacionais e prática em análise de dados.*
